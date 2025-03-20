@@ -41,7 +41,7 @@ You will need to have Docker and Docker Compose installed on a server that will 
 
 After you've installed Docker and Docker Compose, download the docker-compose.yaml from this repo.
 
-`curl https://raw.githubusercontent.com/bsmithio/OPNsense-Dashboard/master/docker-compose.yaml -o docker-compose.yaml`
+`curl https://raw.githubusercontent.com/MansoorMajeed/OPNsense-Dashboard/master/docker-compose.yaml -o docker-compose.yaml`
 
 It's important that you change the TZ environment variable to your timezone for everything to work properly.
 I also recommend you change the passwords in this compose file as well.
